@@ -1,0 +1,157 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	  <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+	  <GenerateTargetFrameworkAttribute>false</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\Report\dg_employee_details.rdlc" />
+    <Content Remove="wwwroot\Report\employee.Designer.cs" />
+    <Content Remove="wwwroot\Report\employee.xsc" />
+    <Content Remove="wwwroot\Report\employee.xsd" />
+    <Content Remove="wwwroot\Report\employee.xss" />
+    <Content Remove="wwwroot\Report\Report_Dataset.Designer.cs" />
+    <Content Remove="wwwroot\Report\Report_Dataset.xsc" />
+    <Content Remove="wwwroot\Report\Report_Dataset.xsd" />
+    <Content Remove="wwwroot\Report\Report_Dataset.xss" />
+  </ItemGroup>
+ <ItemGroup>
+    <None Remove="ReportFiles\Report.rdlc" />
+    <None Remove="ReportFiles\UserDetailss.rdlc" />
+    <None Remove="ReportFiles\UserDetails_en.rdlc" />
+    <None Remove="ReportFiles\UserDetails_hi.rdlc" />
+    <None Remove="ReportFiles\UserDetails_ta.rdlc" />
+  </ItemGroup>
+ <ItemGroup>
+   <Compile Include="wwwroot\Report\employee.Designer.cs">
+     <DesignTime>True</DesignTime>
+     <AutoGen>True</AutoGen>
+     <DependentUpon>employee.xsd</DependentUpon>
+   </Compile>
+   <Compile Include="wwwroot\Report\Report_Dataset.Designer.cs">
+     <DesignTime>True</DesignTime>
+     <AutoGen>True</AutoGen>
+     <DependentUpon>Report_Dataset.xsd</DependentUpon>
+   </Compile>
+ </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="ReportFiles\Report.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportFiles\UserDetails_en.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportFiles\UserDetails_hi.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportFiles\UserDetails_ta.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="ReportFiles\UserDetailss.rdlc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="wwwroot\Report\dg_employee_details.rdlc" />
+  </ItemGroup>
+	
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.Reporting" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.18" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.18">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.18" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.18">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Physical" Version="6.0.2-mauipre.1.22102.15" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.14" />
+    <PackageReference Include="ReportViewerCore.NETCore" Version="15.1.17" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.CodeDom" Version="6.0.2-mauipre.1.22102.15" />
+    <PackageReference Include="System.Drawing.Common" Version="6.0.2-mauipre.1.22102.15" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="6.0.2-mauipre.1.22102.15" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="App_Code\" />
+    <Folder Include="UploadFiles\" />
+    <Folder Include="Upload\Files\" />
+    <Folder Include="wwwroot\Uploads\common\" />
+    <Folder Include="wwwroot\Uploads\Product\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Report\employee.xsc" />
+    <None Include="wwwroot\Report\employee.xsd">
+      <SubType>Designer</SubType>
+      <LastGenOutput>employee.Designer.cs</LastGenOutput>
+      <Generator>MSDataSetGenerator</Generator>
+    </None>
+    <None Include="wwwroot\Report\employee.xss" />
+    <None Include="wwwroot\Report\Report_Dataset.xsc" />
+    <None Include="wwwroot\Report\Report_Dataset.xsd">
+      <SubType>Designer</SubType>
+      <LastGenOutput>Report_Dataset.Designer.cs</LastGenOutput>
+      <Generator>MSDataSetGenerator</Generator>
+    </None>
+    <None Include="wwwroot\Report\Report_Dataset.xss" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Report_Rdlc\employee.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>employee.xsd</DependentUpon>
+    </Compile>
+    <Compile Update="Report_Rdlc\Report_Dataset.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Report_Dataset.xsd</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="wwwroot\Report\DataSet.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Content>
+    <Content Update="wwwroot\Report\DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+    </Content>
+    <Content Update="wwwroot\Report\DataSet1.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Content>
+    <Content Update="wwwroot\Report\DataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Report_Rdlc\employee.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>employee.Designer.cs</LastGenOutput>
+    </None>
+    <None Update="Report_Rdlc\Report_Dataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Report_Dataset.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

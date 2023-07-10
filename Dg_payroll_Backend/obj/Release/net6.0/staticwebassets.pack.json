@@ -1,0 +1,181 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Attendance_InOut_Notpunch.rdlc",
+      "PackagePath": "staticwebassets\\Attendance_InOut_Notpunch.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Ecard.rdlc",
+      "PackagePath": "staticwebassets\\Ecard.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Att_Absent.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Att_Absent.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Att_Inoutnotpunch.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Att_Inoutnotpunch.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Att_inout-X.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Att_inout-X.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Att_inout.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Att_inout.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Attendance_Absent.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Attendance_Absent.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Attendance_InOut_Notpunch.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Attendance_InOut_Notpunch.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Attendance_In_Notpunch.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Attendance_In_Notpunch.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Attendance_Late.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Attendance_Late.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Attendance_Out_Notpunch.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Attendance_Out_Notpunch.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\DataSet.Designer.cs",
+      "PackagePath": "staticwebassets\\Report\\DataSet.Designer.cs"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\DataSet.xsc",
+      "PackagePath": "staticwebassets\\Report\\DataSet.xsc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\DataSet.xsd",
+      "PackagePath": "staticwebassets\\Report\\DataSet.xsd"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\DataSet.xss",
+      "PackagePath": "staticwebassets\\Report\\DataSet.xss"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\DataSet1.Designer.cs",
+      "PackagePath": "staticwebassets\\Report\\DataSet1.Designer.cs"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\DataSet1.xsc",
+      "PackagePath": "staticwebassets\\Report\\DataSet1.xsc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\DataSet1.xsd",
+      "PackagePath": "staticwebassets\\Report\\DataSet1.xsd"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\DataSet1.xss",
+      "PackagePath": "staticwebassets\\Report\\DataSet1.xss"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Ecard.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Ecard.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Ecard2.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Ecard2.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\EcardP.rdlc",
+      "PackagePath": "staticwebassets\\Report\\EcardP.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\EcardPP.rdlc",
+      "PackagePath": "staticwebassets\\Report\\EcardPP.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Ecard_X.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Ecard_X.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\IDCard.rdlc",
+      "PackagePath": "staticwebassets\\Report\\IDCard.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Program.cs",
+      "PackagePath": "staticwebassets\\Report\\Program.cs"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Sal_OT_WHSumary.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Sal_OT_WHSumary.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Sal_PaySlip_Debonir.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Sal_PaySlip_Debonir.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Sal_Salarysheet.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Sal_Salarysheet.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\Sal_Salarysheet_D.rdlc",
+      "PackagePath": "staticwebassets\\Report\\Sal_Salarysheet_D.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\TestReport.rdlc",
+      "PackagePath": "staticwebassets\\Report\\TestReport.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\dg_Inactiveemp_details.rdlc",
+      "PackagePath": "staticwebassets\\Report\\dg_Inactiveemp_details.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\dg_Inactiveemp_detailsX.rdlc",
+      "PackagePath": "staticwebassets\\Report\\dg_Inactiveemp_detailsX.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\dg_emp_details.rdlc",
+      "PackagePath": "staticwebassets\\Report\\dg_emp_details.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Report\\dg_emp_details1.rdlc",
+      "PackagePath": "staticwebassets\\Report\\dg_emp_details1.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Sal_Salarysheet.rdlc",
+      "PackagePath": "staticwebassets\\Sal_Salarysheet.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Uploads\\Product\\1709.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Product\\1709.jpg"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\Uploads\\Product\\540.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Product\\540.jpg"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\dg_Inactiveemp_details.rdlc",
+      "PackagePath": "staticwebassets\\dg_Inactiveemp_details.rdlc"
+    },
+    {
+      "Id": "D:\\#Payroll Last Update Code\\Dg_payroll-42\\Dg_payroll_Backend\\wwwroot\\dg_idcard.rdlc",
+      "PackagePath": "staticwebassets\\dg_idcard.rdlc"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.Dg_payroll.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.build.Dg_payroll.props",
+      "PackagePath": "build\\Dg_payroll.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Dg_payroll.props",
+      "PackagePath": "buildMultiTargeting\\Dg_payroll.props"
+    },
+    {
+      "Id": "obj\\Release\\net6.0\\staticwebassets\\msbuild.buildTransitive.Dg_payroll.props",
+      "PackagePath": "buildTransitive\\Dg_payroll.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="employee" targetNamespace="http://tempuri.org/employee.xsd" xmlns:mstns="http://tempuri.org/employee.xsd" xmlns="http://tempuri.org/employee.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="1" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="dg_hrpayrollConnectionString" IsAppSettingsProperty="true" Modifier="Assembly" Name="dg_hrpayrollConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.Report_Rdlc.Properties.Settings.GlobalReference.Default.dg_hrpayrollConnectionString" Provider="System.Data.SqlClient" />
+          <Connection ConnectionStringObject="Data Source=192.168.1.42;Initial Catalog=dg_hrpayroll;Persist Security Info=True;User ID=sa;Password=dg@2022" IsAppSettingsProperty="false" Modifier="Assembly" Name="dg_hrpayrollConnectionString" ParameterPrefix="@" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="employee" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="employee" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="employee">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="UserDto" msprop:Generator_RowEvHandlerName="UserDtoRowChangeEventHandler" msprop:Generator_RowDeletedName="UserDtoRowDeleted" msprop:Generator_RowDeletingName="UserDtoRowDeleting" msprop:Generator_RowEvArgName="UserDtoRowChangeEvent" msprop:Generator_TablePropName="UserDto" msprop:Generator_RowChangedName="UserDtoRowChanged" msprop:Generator_UserTableName="UserDto" msprop:Generator_RowChangingName="UserDtoRowChanging" msprop:Generator_RowClassName="UserDtoRow" msprop:Generator_TableClassName="UserDtoDataTable" msprop:Generator_TableVarName="tableUserDto">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="FirstName" msprop:Generator_ColumnPropNameInTable="FirstNameColumn" msprop:Generator_ColumnPropNameInRow="FirstName" msprop:Generator_UserColumnName="FirstName" msprop:Generator_ColumnVarNameInTable="columnFirstName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="LastName" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="LastNameColumn" msprop:Generator_ColumnPropNameInRow="LastName" msprop:Generator_UserColumnName="LastName" msprop:Generator_ColumnVarNameInTable="columnLastName" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Email" msprop:Generator_ColumnPropNameInTable="EmailColumn" msprop:Generator_ColumnPropNameInRow="Email" msprop:Generator_UserColumnName="Email" msprop:Generator_ColumnVarNameInTable="columnEmail" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="Phone" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInTable="PhoneColumn" msprop:Generator_ColumnPropNameInRow="Phone" msprop:Generator_UserColumnName="Phone" msprop:Generator_ColumnVarNameInTable="columnPhone" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Dg_Pay_Rep_EmployeeDetails" msprop:Generator_RowClassName="Dg_Pay_Rep_EmployeeDetailsRow" msprop:Generator_RowEvHandlerName="Dg_Pay_Rep_EmployeeDetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="Dg_Pay_Rep_EmployeeDetailsRowDeleted" msprop:Generator_RowDeletingName="Dg_Pay_Rep_EmployeeDetailsRowDeleting" msprop:Generator_RowEvArgName="Dg_Pay_Rep_EmployeeDetailsRowChangeEvent" msprop:Generator_TablePropName="Dg_Pay_Rep_EmployeeDetails" msprop:Generator_RowChangedName="Dg_Pay_Rep_EmployeeDetailsRowChanged" msprop:Generator_UserTableName="Dg_Pay_Rep_EmployeeDetails" msprop:Generator_RowChangingName="Dg_Pay_Rep_EmployeeDetailsRowChanging" msprop:Generator_TableClassName="Dg_Pay_Rep_EmployeeDetailsDataTable" msprop:Generator_TableVarName="tableDg_Pay_Rep_EmployeeDetails">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="comp_name" msprop:Generator_UserColumnName="comp_name" msprop:Generator_ColumnPropNameInTable="comp_nameColumn" msprop:Generator_ColumnPropNameInRow="comp_name" msprop:Generator_ColumnVarNameInTable="columncomp_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="com_ad1" msprop:Generator_UserColumnName="com_ad1" msprop:Generator_ColumnPropNameInTable="com_ad1Column" msprop:Generator_ColumnPropNameInRow="com_ad1" msprop:Generator_ColumnVarNameInTable="columncom_ad1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="emp_no" msprop:Generator_UserColumnName="emp_no" msprop:Generator_ColumnPropNameInTable="emp_noColumn" msprop:Generator_ColumnPropNameInRow="emp_no" msprop:Generator_ColumnVarNameInTable="columnemp_no" type="xs:int" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_UserColumnName="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnVarNameInTable="columnname" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oi_joineddate" msprop:Generator_UserColumnName="oi_joineddate" msprop:Generator_ColumnPropNameInTable="oi_joineddateColumn" msprop:Generator_ColumnPropNameInRow="oi_joineddate" msprop:Generator_ColumnVarNameInTable="columnoi_joineddate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="oi_departmente_name" msprop:Generator_UserColumnName="oi_departmente_name" msprop:Generator_ColumnPropNameInTable="oi_departmente_nameColumn" msprop:Generator_ColumnPropNameInRow="oi_departmente_name" msprop:Generator_ColumnVarNameInTable="columnoi_departmente_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oi_designation_name" msprop:Generator_UserColumnName="oi_designation_name" msprop:Generator_ColumnPropNameInTable="oi_designation_nameColumn" msprop:Generator_ColumnPropNameInRow="oi_designation_name" msprop:Generator_ColumnVarNameInTable="columnoi_designation_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oi_section_name" msprop:Generator_UserColumnName="oi_section_name" msprop:Generator_ColumnPropNameInTable="oi_section_nameColumn" msprop:Generator_ColumnPropNameInRow="oi_section_name" msprop:Generator_ColumnVarNameInTable="columnoi_section_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oi_basicsalary" msprop:Generator_UserColumnName="oi_basicsalary" msprop:Generator_ColumnPropNameInTable="oi_basicsalaryColumn" msprop:Generator_ColumnPropNameInRow="oi_basicsalary" msprop:Generator_ColumnVarNameInTable="columnoi_basicsalary" type="xs:decimal" minOccurs="0" />
+              <xs:element name="oi_grossalary" msprop:Generator_UserColumnName="oi_grossalary" msprop:Generator_ColumnPropNameInTable="oi_grossalaryColumn" msprop:Generator_ColumnPropNameInRow="oi_grossalary" msprop:Generator_ColumnVarNameInTable="columnoi_grossalary" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Dg_Pay_Rep_EmployeeDetails_inactive" msprop:Generator_RowEvHandlerName="Dg_Pay_Rep_EmployeeDetails_inactiveRowChangeEventHandler" msprop:Generator_RowDeletedName="Dg_Pay_Rep_EmployeeDetails_inactiveRowDeleted" msprop:Generator_RowDeletingName="Dg_Pay_Rep_EmployeeDetails_inactiveRowDeleting" msprop:Generator_RowEvArgName="Dg_Pay_Rep_EmployeeDetails_inactiveRowChangeEvent" msprop:Generator_TablePropName="Dg_Pay_Rep_EmployeeDetails_inactive" msprop:Generator_RowChangedName="Dg_Pay_Rep_EmployeeDetails_inactiveRowChanged" msprop:Generator_RowChangingName="Dg_Pay_Rep_EmployeeDetails_inactiveRowChanging" msprop:Generator_TableClassName="Dg_Pay_Rep_EmployeeDetails_inactiveDataTable" msprop:Generator_RowClassName="Dg_Pay_Rep_EmployeeDetails_inactiveRow" msprop:Generator_TableVarName="tableDg_Pay_Rep_EmployeeDetails_inactive" msprop:Generator_UserTableName="Dg_Pay_Rep_EmployeeDetails_inactive">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="comp_name" msprop:Generator_ColumnPropNameInRow="comp_name" msprop:Generator_ColumnPropNameInTable="comp_nameColumn" msprop:Generator_ColumnVarNameInTable="columncomp_name" msprop:Generator_UserColumnName="comp_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="com_ad1" msprop:Generator_ColumnPropNameInRow="com_ad1" msprop:Generator_ColumnPropNameInTable="com_ad1Column" msprop:Generator_ColumnVarNameInTable="columncom_ad1" msprop:Generator_UserColumnName="com_ad1" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="emp_no" msprop:Generator_ColumnPropNameInRow="emp_no" msprop:Generator_ColumnPropNameInTable="emp_noColumn" msprop:Generator_ColumnVarNameInTable="columnemp_no" msprop:Generator_UserColumnName="emp_no" type="xs:int" minOccurs="0" />
+              <xs:element name="name" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_UserColumnName="name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="100" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oi_joineddate" msprop:Generator_ColumnPropNameInRow="oi_joineddate" msprop:Generator_ColumnPropNameInTable="oi_joineddateColumn" msprop:Generator_ColumnVarNameInTable="columnoi_joineddate" msprop:Generator_UserColumnName="oi_joineddate" type="xs:dateTime" minOccurs="0" />
+              <xs:element name="oi_departmente_name" msprop:Generator_ColumnPropNameInRow="oi_departmente_name" msprop:Generator_ColumnPropNameInTable="oi_departmente_nameColumn" msprop:Generator_ColumnVarNameInTable="columnoi_departmente_name" msprop:Generator_UserColumnName="oi_departmente_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oi_designation_name" msprop:Generator_ColumnPropNameInRow="oi_designation_name" msprop:Generator_ColumnPropNameInTable="oi_designation_nameColumn" msprop:Generator_ColumnVarNameInTable="columnoi_designation_name" msprop:Generator_UserColumnName="oi_designation_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oi_section_name" msprop:Generator_ColumnPropNameInRow="oi_section_name" msprop:Generator_ColumnPropNameInTable="oi_section_nameColumn" msprop:Generator_ColumnVarNameInTable="columnoi_section_name" msprop:Generator_UserColumnName="oi_section_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="oi_basicsalary" msprop:Generator_ColumnPropNameInRow="oi_basicsalary" msprop:Generator_ColumnPropNameInTable="oi_basicsalaryColumn" msprop:Generator_ColumnVarNameInTable="columnoi_basicsalary" msprop:Generator_UserColumnName="oi_basicsalary" type="xs:decimal" minOccurs="0" />
+              <xs:element name="oi_grossalary" msprop:Generator_ColumnPropNameInRow="oi_grossalary" msprop:Generator_ColumnPropNameInTable="oi_grossalaryColumn" msprop:Generator_ColumnVarNameInTable="columnoi_grossalary" msprop:Generator_UserColumnName="oi_grossalary" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

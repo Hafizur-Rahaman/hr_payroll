@@ -1,0 +1,7 @@
+C:\Users\ERP Dev\Desktop\New folder (ALL-FINAL)\Dg_payroll_web-42\Dg_payroll\Report_Rdlc\obj\Debug\Report_Rdlc.csproj.AssemblyReference.cache
+C:\Users\ERP Dev\Desktop\New folder (ALL-FINAL)\Dg_payroll_web-42\Dg_payroll\Report_Rdlc\obj\Debug\Report_Rdlc.csproj.CoreCompileInputs.cache
+C:\Users\ERP Dev\Desktop\New folder (ALL-FINAL)\Dg_payroll_web-42\Dg_payroll\Report_Rdlc\bin\Debug\Report_Rdlc.dll.config
+C:\Users\ERP Dev\Desktop\New folder (ALL-FINAL)\Dg_payroll_web-42\Dg_payroll\Report_Rdlc\bin\Debug\Report_Rdlc.dll
+C:\Users\ERP Dev\Desktop\New folder (ALL-FINAL)\Dg_payroll_web-42\Dg_payroll\Report_Rdlc\bin\Debug\Report_Rdlc.pdb
+C:\Users\ERP Dev\Desktop\New folder (ALL-FINAL)\Dg_payroll_web-42\Dg_payroll\Report_Rdlc\obj\Debug\Report_Rdlc.dll
+C:\Users\ERP Dev\Desktop\New folder (ALL-FINAL)\Dg_payroll_web-42\Dg_payroll\Report_Rdlc\obj\Debug\Report_Rdlc.pdb

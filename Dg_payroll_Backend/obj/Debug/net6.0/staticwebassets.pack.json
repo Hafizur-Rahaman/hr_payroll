@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\DataSet.Designer.cs",
+      "PackagePath": "staticwebassets\\Report\\DataSet.Designer.cs"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\DataSet.xsc",
+      "PackagePath": "staticwebassets\\Report\\DataSet.xsc"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\DataSet.xsd",
+      "PackagePath": "staticwebassets\\Report\\DataSet.xsd"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\DataSet.xss",
+      "PackagePath": "staticwebassets\\Report\\DataSet.xss"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\DataSet1.Designer.cs",
+      "PackagePath": "staticwebassets\\Report\\DataSet1.Designer.cs"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\DataSet1.xsc",
+      "PackagePath": "staticwebassets\\Report\\DataSet1.xsc"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\DataSet1.xsd",
+      "PackagePath": "staticwebassets\\Report\\DataSet1.xsd"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\DataSet1.xss",
+      "PackagePath": "staticwebassets\\Report\\DataSet1.xss"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\Program.cs",
+      "PackagePath": "staticwebassets\\Report\\Program.cs"
+    },
+    {
+      "Id": "D:\\Payroll_Back_End\\Dg_payroll\\wwwroot\\Report\\TestReport.rdlc",
+      "PackagePath": "staticwebassets\\Report\\TestReport.rdlc"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Dg_payroll.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Dg_payroll.props",
+      "PackagePath": "build\\Dg_payroll.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Dg_payroll.props",
+      "PackagePath": "buildMultiTargeting\\Dg_payroll.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Dg_payroll.props",
+      "PackagePath": "buildTransitive\\Dg_payroll.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
